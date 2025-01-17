@@ -1,0 +1,19 @@
+{
+  "name": "check-for-api-keys",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "start": "bun run check-for-api-key.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/commander": "^2.12.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}
